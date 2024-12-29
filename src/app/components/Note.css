@@ -1,0 +1,49 @@
+.noteContainer{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+}
+
+.inputText{
+  resize: none;
+  padding: 20px;
+  padding-top: 70px;
+  width: 510px;
+  height: 510px;
+  background: #E8E8E8;
+  border-radius: 20px;
+  border: 0px;
+  font-size: 19px;
+}
+
+.inputText:focus{
+  outline: none;
+  background: #F5F4F4;
+}
+
+.saveButton, .deleteButton{
+  align-self: end;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  background: #C3C3C3;
+  color: #3e3e3e;
+  border-radius: 10px;
+  font-weight: 500;
+  max-width: 90px;
+  cursor: pointer;
+}
+
+.saveButton:hover, .deleteButton:hover{
+  transition: 300ms;
+  background: #3e3e3e;
+  color: #C3C3C3;
+}
+
+.deleteButton{
+  right: 105px;
+}

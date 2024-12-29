@@ -1,0 +1,36 @@
+.line{
+  height: 4px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #000;
+}
+
+.notesContainer{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px 0px;
+}
+
+.newNoteButton{
+  margin: 0 auto;
+  margin-top: 250px;
+  width: 200px;
+  height: 70px;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  background: #C3C3C3;
+  color: #3e3e3e;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.newNoteButton:hover{
+  transition: 300ms;
+  background: #3e3e3e;
+  color: #C3C3C3;
+}
